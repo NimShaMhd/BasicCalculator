@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mainBody">
+        <h1>My Calculator</h1> 
+        <div id="mainBox">
+            <div id="output">
+                <input  id="outbox" type="text">
+            </div>
+            <div id="row">
+                <button onclick="clicks(7)" class="buttonclass">7</button>
+                <button onclick="clicks(8)" class="buttonclass">8</button>
+                <button onclick="clicks(9)" class="buttonclass">9</button>
+                <button onclick="clicks('+')" class="buttonclass">+</button>
+            </div>  
+            <div id="row">
+                <button onclick="clicks(4)" class="buttonclass">4</button>
+                <button onclick="clicks(5)" class="buttonclass">5</button>
+                <button onclick="clicks(6)" class="buttonclass">6</button>
+                <button onclick="clicks('-')" class="buttonclass">-</button>
+            </div>
+            <div id="row">
+                <button onclick="clicks(1)" class="buttonclass">1</button>
+                <button onclick="clicks(2)" class="buttonclass">2</button>
+                <button onclick="clicks(3)" class="buttonclass">3</button>
+                <button onclick="clicks('*')" class="buttonclass">X</button>
+    
+            </div>  
+            <div id="row">
+                <button onclick="clicks('.')" class="buttonclass">.</button>
+                <button onclick="clicks(0)" class="buttonclass">0</button>
+                <button onclick="clicks('/')" class="buttonclass">/</button>
+                <button onclick="results()" class="buttonclass">=</button>
+            </div>  
+            <div id="clearrow">
+                <button onclick="clearscreen()" class="buttonclassClear">Clear</button>
+            </div>  
+        </div>
+    </div>
+    
+</body>
+</html>
